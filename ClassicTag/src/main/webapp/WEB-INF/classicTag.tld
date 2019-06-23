@@ -1,0 +1,16 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<uri>classicTagUri</uri>
+	<tag>
+		<description>This is for my custom tag handler</description>
+		<name>cTagForName</name>
+		<tag-class>com.abhijeet.jsp.ClassicTagHandler</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>username</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
